@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/icon.css"  media="screen,projection"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+   <body>
+
+<div class="row container">
+  <div class="col s12 offset-l2 offset-m2 offset-s2">
+
+    <div class="col s8 z-depth-2 hoverable middle">
+      <div class="col s2 prevsong z-depth-1 hoverable no-padding">
+        <i class="material-icons">skip_previous</i>
+      </div>
+      <div class="col s2 nextsong z-depth-1 hoverable no-padding">
+        <i class="material-icons">skip_next</i>
+      </div>
+      <div class="title col s12">
+        <span class="title1">The Golden Age</span>
+        <br>
+        <span class="title2">Woodkid</span>
+      </div>
+      <div class="image col s12">
+        <img src="images/covers/goldenage.jpg" alt="" class="responsive-img">
+      </div>
+      <div class="col s12 controls no-padding">
+        <div class="col s12 no-padding timer">
+          <span class="fancythumb"></span>
+          <input type="range" id="duration" min="0" value="0" />
+          <span class="currenttime">00:00</span>
+          <span class="fulltime"></span>
+        </div>
+        <div class="col s12">
+          <div class="col s7 left">
+            <b>Run Boy Run</b>
+          </div>
+          <div class="col s5 right valign-wrapper">
+            <i class="material-icons play valign">play_circle_outline</i>
+            <i class="material-icons valign fav">favorite_border</i>
+            <i class="material-icons valign">share</i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- COL S12 Ends -->
+</div><!-- Container Ends  -->
+
+
+
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript" src="js/custom.js"></script>
+
+   </body>
+ </html>
